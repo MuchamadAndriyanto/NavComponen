@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:id="@+id/profile"
+        android:layout_centerHorizontal="true"
+        android:layout_width="62dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="44dp"
+        android:src="@drawable/baseline_person_24"/>
+
+    <TextView
+        android:id="@+id/txtUss"
+        android:textSize="20sp"
+        android:layout_below="@+id/profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="100dp" />
+
+    <TextView
+        android:id="@+id/txtPass"
+        android:textSize="20sp"
+        android:layout_below="@+id/txtUss"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"/>
+
+
+</RelativeLayout>
